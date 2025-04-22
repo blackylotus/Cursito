@@ -1,0 +1,17 @@
+p {
+    color: red;
+    font-family: "Felipe","Montserrat", "Arial", sans-serif;
+    /* se puede poner mas de una tipografia separada por comas en caso de que no se tenga la primera */
+    font-size: 20px;
+    font-weight: 400;
+    /* font-weight es la anchura de la letra, 400 es normal, 700 es bold */
+    /* se recomienda usar bold, no la etiqueta <b> */
+    /* la tipografria tiene que tener condigurada el weight, si no no se ve el cambio  */
+    font-style: oblique;
+    text-align: justify;
+    /* line-height: tamaño de la linea */
+    /* letter-spacing espacio entre letras */
+}
+h1 {
+    text-align: center;
+}

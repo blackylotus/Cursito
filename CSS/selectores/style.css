@@ -1,0 +1,12 @@
+/* primero ponemos el nombre del elemento que seria nuestro selector ESTA SERIA SELECTOR ELEMENT */
+/* el . se refiere a una clase y el # a un id */ 
+/* apesar de que podemos atribuir el mismo nombre a una clase y a un id, no es recomendable  */
+li {
+    color: gray;
+}
+.ingrediente-faltante {
+    color: red;
+}
+#ingrediente-secreto {
+    color: blue;
+}
