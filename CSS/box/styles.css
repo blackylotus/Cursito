@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box-default {
+    padding: 25px;
+    border: 10px solid black;
+}
+.box-new {
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid black;
+}
+/* aqui tenemos un ejemplo de cascada, donde el parametro principal es box width 100 y height 100, por tanto si cuestionamos los valores en .box-default o .box-new, la pagina adaptará el tamaño del elemento para que siempre se cumpla el 100x100 que definimos en un principio */ 
+/* esto es box size y border box */
