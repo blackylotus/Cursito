@@ -1,0 +1,21 @@
+.formulario {
+    background: red;
+    padding: 30px;
+    
+}
+
+.formulario_input {
+    padding: 9px 12px;
+    width: 90%;
+    color: green;
+    background: purple;
+    margin: 10px;
+}
+
+.formulario_submit {
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    background: blue;
+    color: aliceblue;
+    width: 50%;
+}
